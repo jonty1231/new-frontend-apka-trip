@@ -290,7 +290,7 @@ const BusComp = () => {
           </div>
 
           <div className=" px-4 border-b-2 shadow-sm  space-y-1 py-3 ">
-            <div className="tabs FromDateDeapt grid lg:grid-cols-5 gap-4 lg:pl-[200px]">
+            <div className="tabs FromDateDeapt grid lg:grid-cols-4 gap-4 ">
               <div className="relative">
                 <div
                   onClick={() => setselected("from")}
@@ -301,7 +301,7 @@ const BusComp = () => {
                   <button
                     className="absolute rounded-full text-white  bg-gray-400 right-0 top-0 bg"
                   >
-                    {" "}
+          
                     <RxCross2 />
                   </button>
                   <div className="flex flex-col">
@@ -310,21 +310,42 @@ const BusComp = () => {
                     </span>
                   </div>
                 </div>
-                {selected == "from" &&
-                  <div className="absolute top-full bg-white w-full z-30">
-                    <input type="text" value={searchparam} className="w-full text-black" placeholder="Search city..." onChange={(e) => handelBusSearch(e)} />
-                    <div className="h-32 overflow-hidden overflow-y-scroll">
-                      {state && !state.isLoading && state.info && state.info.BusCities && state.info.BusCities.map((item) => {
-                        return (
-                          <p className=" border-b-2 p-1 cursor-pointer" onClick={() => {
-                            setFromCity({
-                              CityId: item.CityId,
-                              CityName: item.CityName,
-                            }), setselected("to"), setsearchparam("")
-                          }}>{item.CityName}</p>
-                        )
-                      })}</div>
-                  </div>}
+                {selected === "from" && (
+  <div className="absolute top-full bg-white w-full z-30 shadow-lg rounded-md border border-gray-200">
+    <input
+      type="text"
+      value={searchparam}
+      className="w-full text-black p-2 border-b border-gray-300 outline-none focus:ring-2 focus:ring-blue-500"
+      placeholder="Search city..."
+      onChange={(e) => handelBusSearch(e)}
+    />
+    <div className="max-h-40 overflow-y-auto">
+      {state &&
+        !state.isLoading &&
+        state.info &&
+        state.info.BusCities &&
+        state.info.BusCities.map((item) => {
+          return (
+            <p
+              key={item.CityId}
+              className="p-2 cursor-pointer hover:bg-blue-100 transition duration-200"
+              onClick={() => {
+                setFromCity({
+                  CityId: item.CityId,
+                  CityName: item.CityName,
+                });
+                setselected("to");
+                setsearchparam("");
+              }}
+            >
+              {item.CityName}
+            </p>
+          );
+        })}
+    </div>
+  </div>
+)}
+
               </div>
 
 

@@ -134,7 +134,7 @@ const FLightHotelComp = () => {
 
   return (
     <>
-      <div className="flex flex-col hidden lg:block custom-color text-white md:px-10 lg:px-52  py-10">
+      <div className="flex flex-col  lg:block custom-color text-white md:px-10 lg:px-52  py-10">
         <div>
           <div className="flex justify-between">
             <div className="tabs flex gap-2 pb-2">

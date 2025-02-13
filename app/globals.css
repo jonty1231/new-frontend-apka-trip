@@ -10,6 +10,11 @@
 }
 
 
+
+
+
+
+
 .active {
   background-color: #3b82f6;
   color: #ffffff;
@@ -67,18 +72,6 @@
   object-fit: cover;
 }
 
-
-@media (max-width:768px) {
-
-  .slider-description h2{
-  
-    font-weight: bold;
-    margin:  7px 0px;
-    font-size: 22px;
-  
-  }
-  
-}
 
 
 
@@ -1294,4 +1287,23 @@ background-color: #d41145;
   overflow: hidden;
   text-overflow: ellipsis; 
 
+}
+
+
+
+@media (max-width:768px) {
+
+  .fromsectr {
+ 
+    left: -7px;
+  }
+
+  .slider-description h2{
+  
+    font-weight: bold;
+    margin:  7px 0px;
+    font-size: 22px;
+  
+  }
+  
 }
