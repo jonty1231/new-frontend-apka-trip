@@ -366,7 +366,7 @@ const page = () => {
         },
       ],
       packageOverView:
-        "Welcome to Lakshadweep, a stunning tropical paradise that promises an unforgettablegetaway with its pristine coral atolls, crystal-clear waters, and rich marine biodiversity. As India’ssmallest Union Territory, Lakshadweep offers an exclusive and serene escape perfect for nature lovers, adventure seekers, and those looking for a peaceful retreat. At Next Gen India, we offer meticulously crafted travel packages to ensure your Lakshadweep adventure is traordinary from start to finish.",
+        "Welcome to Lakshadweep, a stunning tropical paradise that promises an unforgettablegetaway with its pristine coral atolls, crystal-clear waters, and rich marine biodiversity. As India’ssmallest Union Territory, Lakshadweep offers an exclusive and serene escape perfect for nature lovers, adventure seekers, and those looking for a peaceful retreat. At Next GenTrip India, we offer meticulously crafted travel packages to ensure your Lakshadweep adventure is traordinary from start to finish.",
       price: 23999,
     }
 

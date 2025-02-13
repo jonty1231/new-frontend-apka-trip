@@ -27,7 +27,7 @@ const page = () => {
   placeName: "Sri Lanka",
 
   packageOverView:
-    "Welcome to Sri Lanka, a tropical paradise renowned for its stunning landscapes, richcultural heritage, and vibrant biodiversity. This island nation, known as the “Pearl of the Indian Ocean,” offers a diverse range of experiences from ancient temples and lush tea plantations to pristine beaches and bustling markets. At Next Gen India, we are dedicated to crafting customized travel itineraries that allow you to experience the very best of Sri Lanka. Let us guide you through the  top destinations, unique attractions, and unforgettable experiences that this beautiful country has to offer.",
+    "Welcome to Sri Lanka, a tropical paradise renowned for its stunning landscapes, richcultural heritage, and vibrant biodiversity. This island nation, known as the “Pearl of the Indian Ocean,” offers a diverse range of experiences from ancient temples and lush tea plantations to pristine beaches and bustling markets. At Next GenTrip India, we are dedicated to crafting customized travel itineraries that allow you to experience the very best of Sri Lanka. Let us guide you through the  top destinations, unique attractions, and unforgettable experiences that this beautiful country has to offer.",
   price: 25999,
   reasons: {
     heading: "Sri Lanka captivates with its",

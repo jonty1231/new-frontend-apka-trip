@@ -515,7 +515,7 @@ const Header = () => {
         listData: [
           {
             link: "/",
-            list: " NextGen.com",
+            list: " NextGenTrip.com",
           },
           // {
           //   link: "",

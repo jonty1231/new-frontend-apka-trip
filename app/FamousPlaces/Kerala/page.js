@@ -27,7 +27,7 @@ const page = () => {
     placeName: "Kerala",
 
     packageOverView:
-      "Welcome to Kerala, a tropical paradise known as “God’s Own Country,” where lush landscapes,serene backwaters, and rich cultural heritage come together to create an unforgettable travel experience. From pristine beaches and verdant hill stations to vibrant festivals and delectable cuisine, Kerala offers something for every traveler. At Next Gen India, we specialize in crafting bespoke travel itineraries to help you explore the best of Kerala. Let us guide you through Kerala’stop destinations, attractions, and unique experiences.",
+      "Welcome to Kerala, a tropical paradise known as “God’s Own Country,” where lush landscapes,serene backwaters, and rich cultural heritage come together to create an unforgettable travel experience. From pristine beaches and verdant hill stations to vibrant festivals and delectable cuisine, Kerala offers something for every traveler. At Next GenTrip India, we specialize in crafting bespoke travel itineraries to help you explore the best of Kerala. Let us guide you through Kerala’stop destinations, attractions, and unique experiences.",
     price: 28999,
     reasons: {
       heading:

@@ -189,10 +189,10 @@ const page = () => {
         <main className="max-w-7xl mx-auto px-4 py-8">
           <section className="bg-white shadow-md rounded-lg p-6">
             <h1 className="text-2xl font-bold text-gray-900 mb-4">
-              Hassle-Free Cab Booking with Next Gen 
+              Hassle-Free Cab Booking with Next GenTrip 
             </h1>
             <p className="text-gray-700 mb-6">
-              At Next Gen , we’re dedicated to making your travel experience as
+              At Next GenTrip , we’re dedicated to making your travel experience as
               smooth and stress-free as possible. Our hassle-free cab booking
               service is designed to meet all your transportation needs with
               just a few taps on your smartphone.

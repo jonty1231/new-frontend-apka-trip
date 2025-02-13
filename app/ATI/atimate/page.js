@@ -145,7 +145,7 @@ return (
       SCO Sector 34A, Chandigarh, India
     </p>
     <p className="text-base text-gray-600">
-      919877579319 | <a href="mailto:Info@NextGen.com" className="text-blue-600">Info@NextGen.com</a>
+      919877579319 | <a href="mailto:Info@NextGenTrip.com" className="text-blue-600">Info@NextGenTrip.com</a>
     </p>
     <div className="flex space-x-4 mt-4 text-2xl">
       <a href="#" className=""><FaFacebookSquare /></a>

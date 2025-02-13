@@ -734,7 +734,7 @@ const page = () => {
                                         Time Frame
                                       </th>
                                       <th className="border border-gray-300 px-4 text-sm py-2 text-left">
-                                        Airline Fee + Next Gen Fee (Per
+                                        Airline Fee + Next GenTrip Fee (Per
                                         Passenger)
                                       </th>
                                     </tr>
@@ -785,7 +785,7 @@ const page = () => {
                                         Time Frame
                                       </th>
                                       <th className="border border-gray-300 px-4 py-2 text-sm text-left">
-                                        Airline Fee + Next Gen Fee (Per
+                                        Airline Fee + Next GenTrip Fee (Per
                                         Passenger)
                                       </th>
                                     </tr>

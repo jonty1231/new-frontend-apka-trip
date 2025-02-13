@@ -26,7 +26,7 @@ const page = () => {
     placeName: "Uttarakhand",
 
     packageOverView:
-      "Welcome to Uttarakhand, a mesmerizing land of divine beauty and serene landscapes, nestled in the lap of the Himalayas. Known for its spiritual significance, lush valleys, picturesque hill stations, and adventure opportunities, Uttarakhand offers a perfect blend of tranquility and excitement. Whether you seek spiritual solace, thrilling adventures, or scenic retreats, Uttarakhand has something special for everyone. At Next Gen India, we are dedicated to curating personalized travel experiences that allow you to explore the best of this enchanting state. Let us guide you through Uttarakhand’s top destinations, unique attractions, and unforgettable experiences.",
+      "Welcome to Uttarakhand, a mesmerizing land of divine beauty and serene landscapes, nestled in the lap of the Himalayas. Known for its spiritual significance, lush valleys, picturesque hill stations, and adventure opportunities, Uttarakhand offers a perfect blend of tranquility and excitement. Whether you seek spiritual solace, thrilling adventures, or scenic retreats, Uttarakhand has something special for everyone. At Next GenTrip India, we are dedicated to curating personalized travel experiences that allow you to explore the best of this enchanting state. Let us guide you through Uttarakhand’s top destinations, unique attractions, and unforgettable experiences.",
     price: 24999,
     reasons: {
       heading:

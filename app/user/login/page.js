@@ -117,12 +117,12 @@ const page = () => {
           } duration-700`}
         >
           <div className="w-2/5  md:w-1/4">
-            <img src="/images/newlogo.png" />
+            <img src="/images/NextGenTrip.jpg" />
           </div>
 
           <div className="text-[#4B97F0] font-bold">
             {" "}
-            <span className="text-orange-600">Welcome </span> to Next Gen{" "}
+            <span className="text-orange-600">Welcome </span> to Next GenTrip{" "}
           </div>
           <div className="w-full flex flex-col gap-1">
             <label htmlFor="email">Email</label>
@@ -186,12 +186,12 @@ const page = () => {
             } duration-700`}
           >
             <div className="flex justify-center">
-              <img src="/images/newlogo.png" className="w-1/2  md:w-1/4 " />
+              <img src="/images/NextGenTrip.jpg" className="w-1/2  md:w-1/4 " />
             </div>
 
             <div className="text-[#4B97F0] font-bold text-center">
               {" "}
-              <span className="text-orange-600">Welcome </span> to Next Gen{" "}
+              <span className="text-orange-600">Welcome </span> to Next GenTrip{" "}
             </div>
             <div className="md:w-full flex flex-col md:flex-row  md:gap-5">
               <div className=" flex flex-col gap-1 w-full">

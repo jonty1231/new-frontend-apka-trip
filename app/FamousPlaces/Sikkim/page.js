@@ -27,7 +27,7 @@ const page = () => {
     placeName: "Sikkim",
 
     packageOverView:
-      "Welcome to Sikkim, India’s serene Himalayan gem, where lush landscapes, majestic mountains, and vibrant cultures converge to create an unforgettable travel experience. Nestled in the northeastern part of India, Sikkim offers a unique blend of natural beauty, adventure, and rich heritage. At Next Gen India, we specialize in designing bespoke itineraries that showcase the very best of this stunning state. Let us guide you through Sikkim’s top destinations, activities, and experiences, ensuring your journey is both captivating and memorable.",
+      "Welcome to Sikkim, India’s serene Himalayan gem, where lush landscapes, majestic mountains, and vibrant cultures converge to create an unforgettable travel experience. Nestled in the northeastern part of India, Sikkim offers a unique blend of natural beauty, adventure, and rich heritage. At Next GenTrip India, we specialize in designing bespoke itineraries that showcase the very best of this stunning state. Let us guide you through Sikkim’s top destinations, activities, and experiences, ensuring your journey is both captivating and memorable.",
     price: 29999,
     reasons: {
       heading:

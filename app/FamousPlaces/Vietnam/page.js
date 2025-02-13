@@ -149,7 +149,7 @@ const page = () => {
       }
     ],
     packageOverView:
-      "Welcome to Vietnam, a country brimming with captivating landscapes, rich history, and vibrant culture. From the bustling streets of Hanoi to the serene beauty of Halong Bay and the historical allure of Hoi An, Vietnam offers a diverse range of experiences for every traveler. At Next Gen India, we are dedicated to crafting bespoke travel itineraries that help you explore the very best of this enchanting Southeast Asian destination. Let us guide you through Vietnam’s top tourist destinations, unique attractions, and unforgettable experiences.",
+      "Welcome to Vietnam, a country brimming with captivating landscapes, rich history, and vibrant culture. From the bustling streets of Hanoi to the serene beauty of Halong Bay and the historical allure of Hoi An, Vietnam offers a diverse range of experiences for every traveler. At Next GenTrip India, we are dedicated to crafting bespoke travel itineraries that help you explore the very best of this enchanting Southeast Asian destination. Let us guide you through Vietnam’s top tourist destinations, unique attractions, and unforgettable experiences.",
     price: 24999,
     reasons: {
       heading: "Vietnam stands out for its",

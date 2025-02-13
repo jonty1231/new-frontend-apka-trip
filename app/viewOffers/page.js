@@ -74,7 +74,7 @@ const cardData = [
     id: 0,
     img: "/images/02-E_sTtfo3..webp",
     heading: "New Offers",
-    head: "Register and Get Discount on First Bookings with Next Gen",
+    head: "Register and Get Discount on First Bookings with Next GenTrip",
     add: "San Diego City, CA, USA",
     bed: 2,
     bath: 2,
@@ -87,7 +87,7 @@ const cardData = [
   {
     id: 1,
     img: "/images/01-kkM7mXf9..webp",
-    head: "Register and Get Discount on First Bookings with Next Gen",
+    head: "Register and Get Discount on First Bookings with Next GenTrip",
     add: "New York, NY, USA",
     bed: 3,
     heading: "Grab Offers",
@@ -101,7 +101,7 @@ const cardData = [
   {
     id: 2,
     img: "/images/03-B8eH2v8V..webp",
-    head: "Register and Get Discount on First Bookings with Next Gen",
+    head: "Register and Get Discount on First Bookings with Next GenTrip",
     add: "Austin, TX, USA",
     bed: 1,
     heading: "New Offers",
@@ -115,7 +115,7 @@ const cardData = [
   {
     id: 3,
     img: "/images/04-SDLCq6RC..webp",
-    head: "Register and Get Discount on First Bookings with Next Gen",
+    head: "Register and Get Discount on First Bookings with Next GenTrip",
     add: "Miami, FL, USA",
     bed: 5,
     heading: "New Offers",
@@ -129,7 +129,7 @@ const cardData = [
   {
     id: 4,
     img: "/images/01-kkM7mXf9..webp",
-    head: "Register and Get Discount on First Bookings with Next Gen",
+    head: "Register and Get Discount on First Bookings with Next GenTrip",
     add: "Malibu, CA, USA",
     bed: 3,
     heading: "New Offers",
@@ -143,7 +143,7 @@ const cardData = [
   {
     id: 5,
     img: "/images/02-E_sTtfo3..webp",
-    head: "Register and Get Discount on First Bookings with Next Gen",
+    head: "Register and Get Discount on First Bookings with Next GenTrip",
     add: "Chicago, IL, USA",
     bed: 2,
     heading: "New Offers",
@@ -157,7 +157,7 @@ const cardData = [
   {
     id: 2,
     img: "/images/03-B8eH2v8V..webp",
-    head: "Register and Get Discount on First Bookings with Next Gen",
+    head: "Register and Get Discount on First Bookings with Next GenTrip",
     add: "Austin, TX, USA",
     bed: 1,
     heading: "New Offers",
@@ -171,7 +171,7 @@ const cardData = [
   {
     id: 3,
     img: "/images/04-SDLCq6RC..webp",
-    head: "Register and Get Discount on First Bookings with Next Gen",
+    head: "Register and Get Discount on First Bookings with Next GenTrip",
     add: "Miami, FL, USA",
     bed: 5,
     heading: "New Offers",
@@ -490,10 +490,10 @@ export default function Page() {
           </div>
 
           <p className="w-3/4 mx-auto text-center">
-            At Next Gen, we believe that every journey should be an
+            At Next GenTrip, we believe that every journey should be an
             unforgettable experience. Whether you're planning a quick weekend
             getaway, a family vacation, or a once-in-a-lifetime adventure,
-            Next Gen is here to make your travel dreams come true. We offer a
+            Next GenTrip is here to make your travel dreams come true. We offer a
             wide range of services to ensure your trip is seamless, enjoyable,
             and tailored to your preferences.
           </p>

@@ -157,7 +157,7 @@ const page = () => {
               </div>
             </div>
             <p className=" mt-4">
-              Get the best out of Next Gen by adding the remaining details!
+              Get the best out of Next GenTrip by adding the remaining details!
             </p>
             <ul className="flex justify-between items-center bg-[#ecf5fe] mt-4 px-10 py-4 rounded-lg">
               <li className="flex gap-3 font-semibold items-center text-blue-600 cursor-pointer">

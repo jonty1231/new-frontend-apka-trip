@@ -261,7 +261,7 @@ const page = () => {
     },
    
     packageOverView:
-      "Welcome to Dubai, a dazzling city where futuristic architecture, luxurious experiences, and rich cultural heritage blend seamlessly. As a global hub for innovation and opulence, Dubai offers an unparalleled travel experience, from its towering skyscrapers to its golden deserts. Whether you are seeking adventure, relaxation, or a taste of luxury, Dubai caters to every traveler&#39;s dream. At Next Gen India, we specialize in crafting bespoke travel itineraries that showcase the best of this extraordinary city. Let us take you through Dubai’s top destinations, must-see attractions, and unique experiences that make it a premier travel destination.",
+      "Welcome to Dubai, a dazzling city where futuristic architecture, luxurious experiences, and rich cultural heritage blend seamlessly. As a global hub for innovation and opulence, Dubai offers an unparalleled travel experience, from its towering skyscrapers to its golden deserts. Whether you are seeking adventure, relaxation, or a taste of luxury, Dubai caters to every traveler&#39;s dream. At Next GenTrip India, we specialize in crafting bespoke travel itineraries that showcase the best of this extraordinary city. Let us take you through Dubai’s top destinations, must-see attractions, and unique experiences that make it a premier travel destination.",
     price: 22999,
   }
 

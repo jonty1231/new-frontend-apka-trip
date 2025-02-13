@@ -387,7 +387,7 @@ const page = () => {
 
         <section className="">
           <h2 className="text-2xl font-bold mb-4 text-center">
-            Why Check PNR Status with Next Gen?
+            Why Check PNR Status with Next GenTrip?
           </h2>
 
           <div className="flex items-center justify-center mb-6">
@@ -416,7 +416,7 @@ const page = () => {
                 </h4>
                 <p className="text-sm">
                   Using PNR status 10 digit, you can check the latest PNR status
-                  with ease on Next Gen or use the PNR Prediction feature and
+                  with ease on Next GenTrip or use the PNR Prediction feature and
                   avoid getting waitlisted.
                 </p>
               </div>
@@ -435,9 +435,9 @@ const page = () => {
                   24x7 Support for Ticket Booking
                 </h4>
                 <p className="text-sm">
-                  Whatever your questions may be, Next Gen will provide 24x7
+                  Whatever your questions may be, Next GenTrip will provide 24x7
                   assistance. You can reach out to the Customer Support team by
-                  clicking on the 'Contact Us' section on the Next Gen Trains
+                  clicking on the 'Contact Us' section on the Next GenTrip Trains
                   app.
                 </p>
               </div>
@@ -478,7 +478,7 @@ const page = () => {
                 </h4>
                 <p className="text-sm">
                   Is your train running late? Check the live status of your
-                  train on the Next Gen app or website. You can also see the
+                  train on the Next GenTrip app or website. You can also see the
                   train route, coach position, and the expected delays along the
                   way.
                 </p>

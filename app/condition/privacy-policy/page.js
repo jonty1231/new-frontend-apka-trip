@@ -39,7 +39,7 @@ const page = () => {
           <div className="mx-auto mt-10 text-justify max-w-6xl">
             <div className="box-detail-info">
               <p>
-                At Next Gen, we take your privacy seriously and are committed
+                At Next GenTrip, we take your privacy seriously and are committed
                 to protecting your personal information...
               </p>
               <p className="my-5">

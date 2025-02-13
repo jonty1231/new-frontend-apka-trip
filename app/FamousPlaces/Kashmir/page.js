@@ -27,7 +27,7 @@ const page = () => {
     placeName: "Kashmir",
 
     packageOverView:
-      "Welcome to Kashmir, the crown jewel of India’s northern Himalayas. Renowned for its breathtaking landscapes, lush meadows, pristine lakes, and vibrant culture, Kashmir is a destination that promises an unforgettable escape into nature’s splendor. At Next Gen India, we specialize in curating exceptional travel experiences to Kashmir, ensuring every moment of your journey is filled with awe and wonder.",
+      "Welcome to Kashmir, the crown jewel of India’s northern Himalayas. Renowned for its breathtaking landscapes, lush meadows, pristine lakes, and vibrant culture, Kashmir is a destination that promises an unforgettable escape into nature’s splendor. At Next GenTrip India, we specialize in curating exceptional travel experiences to Kashmir, ensuring every moment of your journey is filled with awe and wonder.",
     price: 27999,
     reasons: {
       heading:

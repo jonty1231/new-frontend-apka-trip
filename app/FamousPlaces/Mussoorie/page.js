@@ -28,7 +28,7 @@ const page = () => {
     placeName: "Mussoorie",
 
     packageOverView:
-      "Welcome to Mussoorie, the enchanting “Queen of the Hills,” where colonial charm meets natural splendor. Perched on the Garhwal Hills, Mussoorie is a serene hill station known for its picturesque landscapes, pleasant climate, and rich history. Whether you&#39;re seeking a romantic getaway, a family vacation, or an adventure-filled retreat, Mussoorie offers something for everyone. At Next Gen India, we specialize in crafting personalized travel experiences that highlight the best of thisdelightful hill station. Let us guide you through Mussoorie’s top attractions, unique experiences, and essential travel tips.",
+      "Welcome to Mussoorie, the enchanting “Queen of the Hills,” where colonial charm meets natural splendor. Perched on the Garhwal Hills, Mussoorie is a serene hill station known for its picturesque landscapes, pleasant climate, and rich history. Whether you&#39;re seeking a romantic getaway, a family vacation, or an adventure-filled retreat, Mussoorie offers something for everyone. At Next GenTrip India, we specialize in crafting personalized travel experiences that highlight the best of thisdelightful hill station. Let us guide you through Mussoorie’s top attractions, unique experiences, and essential travel tips.",
     price: 25999,
     reasons: {
       heading: "Mussoorie is celebrated for its:",

@@ -187,7 +187,7 @@ const page = () => {
     ],
 
     packageOverView:
-      "Welcome to Rajasthan, the Land of Kings, where history, culture, and majestic landscapes come together in a vibrant tapestry. From the shimmering sands of the Thar Desert to the opulent palaces and fortresses that whisper tales of bygone eras, Rajasthan offers a treasure trove of experiences. At Next Gen India, we specialize in curating personalized travel experiences that highlight the very best of this enchanting state. Let us guide you through Rajasthan’s top destinations, unique attractions, and unforgettable experiences.",
+      "Welcome to Rajasthan, the Land of Kings, where history, culture, and majestic landscapes come together in a vibrant tapestry. From the shimmering sands of the Thar Desert to the opulent palaces and fortresses that whisper tales of bygone eras, Rajasthan offers a treasure trove of experiences. At Next GenTrip India, we specialize in curating personalized travel experiences that highlight the very best of this enchanting state. Let us guide you through Rajasthan’s top destinations, unique attractions, and unforgettable experiences.",
     price: 27999,
     reasons: {
       heading:
