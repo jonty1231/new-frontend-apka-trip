@@ -343,7 +343,7 @@ const page = () => {
     },
 
     packageOverView:
-      "Welcome to Goa, India’s premier beach destination where sun, sand, and vibrant culture come together to create an unforgettable getaway. Known for its stunning coastlines, lively nightlife, and rich Portuguese heritage, Goa offers a diverse range of experiences for every traveler. At Next GenTrip India, we specialize in crafting personalized itineraries that ensure you make the most of your Goan adventure. Let us guide you through Goa’s top destinations, activities, and unique experiences.",
+      "Welcome to Goa, India’s premier beach destination where sun, sand, and vibrant culture come together to create an unforgettable getaway. Known for its stunning coastlines, lively nightlife, and rich Portuguese heritage, Goa offers a diverse range of experiences for every traveler. At Next Gen India, we specialize in crafting personalized itineraries that ensure you make the most of your Goan adventure. Let us guide you through Goa’s top destinations, activities, and unique experiences.",
     price: 21999,
   }
   return (

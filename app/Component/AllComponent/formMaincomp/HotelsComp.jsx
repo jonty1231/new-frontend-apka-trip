@@ -8,13 +8,10 @@ import AutoSearchcity from "../AutoSearchcity";
 import { Calendar } from "@nextui-org/react";
 import { today, getLocalTimeZone } from "@internationalized/date";
 import Navbar from "../Navbar";
-import { IoIosArrowDown, IoIosCheckmark } from "react-icons/io";
 import { MdOutlineMeetingRoom } from "react-icons/md";
 
 import { IoLocationSharp } from "react-icons/io5";
-import { RxCross2 } from "react-icons/rx";
-import { FaArrowRightLong, FaUserLarge } from "react-icons/fa6";
-import { FaCalendarWeek, FaChevronDown, FaCalendarAlt } from "react-icons/fa";
+import {  FaUserLarge,FaCalendarAlt } from "react-icons/fa6";
 import TypeWriterHeaderEffect from "../TypeWriterHeaderEffect";
 
 
@@ -54,8 +51,10 @@ const HotelsComp = () => {
 
   const handelreturn = (newRange) => {
     const date = new Date(newRange.year, newRange.month - 1, newRange.day);
-
+const nextdate=new Date(newRange.year, newRange.month - 1, newRange.day+1);
     setarivetime(date);
+    setcheckOut(nextdate);
+
     setIsVisible("");
   };
   const handelreturn2 = (newRange) => {
@@ -121,7 +120,7 @@ const HotelsComp = () => {
       >
         <IoLocationSharp className="text-xl" />
         <button className="absolute rounded-full text-white bg-gray-400 right-0 -top-[2px]">
-          <RxCross2 />
+         
         </button>
         <div className="flex flex-col">
           <span className="text-xl md:text-2xl text-black font-bold capitalize">
@@ -246,35 +245,17 @@ const HotelsComp = () => {
 
       {isVisible == "roomcheck" && (
         <div
-          className="absolute w-full top-full p-4 bg-white rounded-lg shadow-md z-50"
+          className="absolute w-fit top-full p-4 bg-white rounded-lg shadow-md z-50"
           onMouseLeave={() => setIsVisible("")}
         >
-          <div className="flex flex-col space-y-4">
-            {/* <TravellerSelector
-              label="Adults"
-              count={adultcount}
-              onDecrease={() => adultcount > 1 && setadultcount(adultcount - 1)}
-              onIncrease={() => setadultcount(adultcount + 1)}
-            />
-            <TravellerSelector
-              label="Children"
-              count={childcount}
-              onDecrease={() => childcount > 0 && setchildcount(childcount - 1)}
-              onIncrease={() => setchildcount(childcount + 1)}
-            />
-            <TravellerSelector
-              label="Rooms"
-              count={numberOfRoom}
-              onDecrease={() => numberOfRoom > 1 && setNumberOfRoom(numberOfRoom - 1)}
-              onIncrease={() => setNumberOfRoom(numberOfRoom + 1)}
-            /> */}
-            <button
-              onClick={() => setIsVisible("")}
-              className="bg-[#2196f3] text-white font-bold py-2 px-4 rounded mt-4"
-            >
-              Done
-            </button>
-          </div>
+           <div className="shadow-2xl rounded-md  bg-white mt-[10%]  flex flex-col gap-4 p-4">
+                        <div className="flex gap-3 justify-between"><p className="text-nowrap">Adult Count </p> <div className="flex items-center gap-3"> <button className="px-2 border text-black" onClick={()=>{adultcount>1?setadultcount(adultcount-1):null}}>-</button> <p className=" px-2 border">{adultcount}</p> <button className="px-2 text-black border"onClick={()=>setadultcount(adultcount+1)} >+</button> </div> </div>
+                        <div className="flex gap-3 justify-between"><p className="text-nowrap">Child Count </p> <div className="flex items-center gap-3"> <button className="px-2 border text-black" onClick={()=>{childcount>0?setchildcount(childcount-1):null}}>-</button> <p className=" px-2 border">{childcount}</p> <button className="px-2 text-black border"onClick={()=>setchildcount(childcount+1)} >+</button> </div> </div>
+                        <div className="flex gap-3 justify-between"><p className="text-nowrap">Room Count </p> <div className="flex items-center gap-3"> <button className="px-2 border text-black" onClick={()=>{numberOfRoom>0?setNumberOfRoom(numberOfRoom-1):null}}>-</button> <p className=" px-2 border">{numberOfRoom}</p> <button className="px-2 text-black border"onClick={()=>setNumberOfRoom(numberOfRoom+1)} >+</button> </div>
+                         </div>
+
+
+                         </div>
         </div>
       )}
     </div>

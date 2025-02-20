@@ -1,9 +1,11 @@
 "use client";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { FaStar, FaTag } from "react-icons/fa";
 import { FaStarFill } from "react-icons/fa";
+import axios from "axios";
+import { apilink } from "../common";
 
 const hotels = [
 
@@ -99,6 +101,15 @@ const FeaturedProperties = () => {
 
   // Filter hotels based on active tab
   const filteredHotels = hotels.filter((hotel) => hotel.location === activeTab);
+
+  const handelapi=async()=>{
+const response=await axios.get(`${apilink}/home/Featuredpropertie`)
+// setfetureHotels(response.data)
+
+  }
+  // useEffect(()=>{handelapi()},[])
+
+
 
   return (
     <div className="bg-cover bg-center w-full bg-image">

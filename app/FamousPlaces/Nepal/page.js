@@ -170,7 +170,7 @@ const  Nepal= {
     ]
     ,
     packageOverView:
-      "Welcome to Nepal, a land of unparalleled natural beauty, spiritual depth, and adventurous spirit. Nestled in the heart of the Himalayas, Nepal is a treasure trove of majestic mountains, ancient temples, vibrant cultures, and thrilling adventures. Whether you&#39;re seeking tranquility in the serene landscapes or an adrenaline rush in high-altitude adventures, Nepal offers a wealth of experiences for every traveler. At Next GenTrip India, we are dedicated to crafting bespoke travel itineraries that will help you uncover the best of this enchanting country. Let us guide you through Nepal’s top destinations, unique attractions, and unforgettable experiences.",
+      "Welcome to Nepal, a land of unparalleled natural beauty, spiritual depth, and adventurous spirit. Nestled in the heart of the Himalayas, Nepal is a treasure trove of majestic mountains, ancient temples, vibrant cultures, and thrilling adventures. Whether you&#39;re seeking tranquility in the serene landscapes or an adrenaline rush in high-altitude adventures, Nepal offers a wealth of experiences for every traveler. At Next Gen India, we are dedicated to crafting bespoke travel itineraries that will help you uncover the best of this enchanting country. Let us guide you through Nepal’s top destinations, unique attractions, and unforgettable experiences.",
     price: 12999,
     reasons: {
       heading: "Nepal is a traveler’s paradise for many reasons",

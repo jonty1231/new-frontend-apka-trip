@@ -368,7 +368,7 @@ const page = () => {
     },
 
     packageOverView:
-      "Welcome to Gujarat, a land of rich history, vibrant culture, and diverse landscapes. Located on the western coast of India, Gujarat offers an array of experiences that cater to every type of traveler.From ancient temples and historic forts to sprawling deserts and picturesque beaches, Gujarat is a treasure trove of unique destinations and activities. At Next GenTrip India, we are dedicated to crafting personalized itineraries that highlight the very best of this fascinating state. Let us guide you through Gujarat’s top attractions, activities, and experiences, ensuring a memorable journey.",
+      "Welcome to Gujarat, a land of rich history, vibrant culture, and diverse landscapes. Located on the western coast of India, Gujarat offers an array of experiences that cater to every type of traveler.From ancient temples and historic forts to sprawling deserts and picturesque beaches, Gujarat is a treasure trove of unique destinations and activities. At Next Gen India, we are dedicated to crafting personalized itineraries that highlight the very best of this fascinating state. Let us guide you through Gujarat’s top attractions, activities, and experiences, ensuring a memorable journey.",
     price: 23999,
   }
 

@@ -161,10 +161,10 @@ const page = () => {
     },
     {
       imgSrc: "/images/1ny5v12000dilb9yjB499.webp",
-      altText: "Discounts at Next GenTrip",
-      title: "Discounts at Next GenTrip",
+      altText: "Discounts at Next Gen",
+      title: "Discounts at Next Gen",
       description:
-        "Next GenTrip frequently offers promotions and discounts, so follow us to stay updated on cheap train fares.",
+        "Next Gen frequently offers promotions and discounts, so follow us to stay updated on cheap train fares.",
     },
   ];
   return (
@@ -349,7 +349,7 @@ const page = () => {
 
       <div className="content px-5 py-0 lg:px-40 lg:py-8">
         <h2 className="text-2xl font-semibold text-center mb-6">
-          Why Book Train Tickets with Next GenTrip?
+          Why Book Train Tickets with Next Gen?
         </h2>
         <ul className="block lg:flex items-center justify-center gap-20">
           <li className="mb-5 md:mb-0">

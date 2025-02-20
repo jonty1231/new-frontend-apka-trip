@@ -378,7 +378,7 @@ const Lakshdeep = ({ selectedRange = [0, 300000], onApply }) => {
           <FamousPlacesFilter />
         </div>
         <div className="flex flex-col gap-5">
-          <h4 className="font-bold text-xl mt-5">Explore Iconic Landmarks with Next GenTrip: A Journey Through History and Beauty</h4>
+          <h4 className="font-bold text-xl mt-5">Explore Iconic Landmarks with Next Gen: A Journey Through History and Beauty</h4>
           <p className="text-base text-justify">
           The Eiffel Tower is an iconic structure that offers breathtaking views of the city, especially when illuminated at night. Visitors can enjoy fine dining at its restaurants or take an elevator ride to marvel at the panoramic cityscape. Another remarkable site is the Great Wall, a vast ancient structure stretching for miles, providing stunning scenic views as you walk along its historic path. Machu Picchu, nestled high in the mountains, draws adventurers and history enthusiasts alike with its mysterious ruins and awe-inspiring views. The Colosseum, a grand amphitheater from ancient times, stands as a testament to architectural brilliance, allowing visitors to explore its ruins and imagine the gladiatorial battles once held there. The Taj Mahal, with its exquisite white marble and symmetrical design, is a symbol of love and beauty, admired for its craftsmanship. Similarly, the Statue of Liberty represents freedom and democracy, inviting visitors to explore its history and take in views of the surrounding skyline.
           </p>
@@ -472,25 +472,25 @@ const Lakshdeep = ({ selectedRange = [0, 300000], onApply }) => {
 
         <div className="flex flex-col gap-5 ">
           <h4 className="font-bold text-xl mt-5">
-          Unforgettable Adventures with Next GenTrip: From the Eiffel Tower to the Northern Lights
+          Unforgettable Adventures with Next Gen: From the Eiffel Tower to the Northern Lights
           </h4>
           <div className="flex flex-col gap-5 text-base text-justify">
             
           <p>
-            Next GenTrip invites travelers to discover the world's most iconic destinations, starting with the Eiffel Tower, a symbol of Parisian charm and elegance. Standing tall in the heart of the city, this architectural wonder offers unparalleled views of the skyline. With Next GenTrip, visitors can enjoy exclusive access to dining experiences within the tower or book guided tours that explore its rich history. As night falls, the illuminated tower creates a magical ambiance, making it a must-see for anyone visiting Paris. Whether you're capturing panoramic photos from the top or simply admiring its beauty from the ground, the Eiffel Tower is an unforgettable experience with Next GenTrip.
+            Next Gen invites travelers to discover the world's most iconic destinations, starting with the Eiffel Tower, a symbol of Parisian charm and elegance. Standing tall in the heart of the city, this architectural wonder offers unparalleled views of the skyline. With Next Gen, visitors can enjoy exclusive access to dining experiences within the tower or book guided tours that explore its rich history. As night falls, the illuminated tower creates a magical ambiance, making it a must-see for anyone visiting Paris. Whether you're capturing panoramic photos from the top or simply admiring its beauty from the ground, the Eiffel Tower is an unforgettable experience with Next Gen.
             </p>
             <p>
             The ancient Pyramids stand as monumental structures that continue to fascinate with their historical significance and sheer grandeur. In contrast, the island of Santorini offers scenic relaxation with its whitewashed buildings, crystal-clear waters, and unforgettable sunsets. The Grand Canyon, a natural wonder carved by the Colorado River, is a favorite destination for hikers and nature lovers, with its deep gorges and breathtaking landscapes. Finally, witnessing the Northern Lights is a magical experience, as the vibrant natural light display fills the sky, leaving visitors in awe of nature's beauty
             </p>
 
             <p>
-            For those seeking adventure and a touch of history, Next GenTrip offers tailored excursions to the Great Wall, a marvel of ancient engineering. Stretching across rugged landscapes, the wall provides a breathtaking view of China's countryside. Walking along its winding path allows travelers to immerse themselves in centuries-old history, surrounded by the scenic beauty of mountains and valleys. Next GenTrip ensures that visitors get the most out of this experience with well-planned itineraries that include the best viewpoints and historical insights, making the journey both educational and awe-inspiring.
+            For those seeking adventure and a touch of history, Next Gen offers tailored excursions to the Great Wall, a marvel of ancient engineering. Stretching across rugged landscapes, the wall provides a breathtaking view of China's countryside. Walking along its winding path allows travelers to immerse themselves in centuries-old history, surrounded by the scenic beauty of mountains and valleys. Next Gen ensures that visitors get the most out of this experience with well-planned itineraries that include the best viewpoints and historical insights, making the journey both educational and awe-inspiring.
             </p>
             <p>
-            A visit to Machu Picchu is an extraordinary journey, and Next GenTrip makes it seamless for explorers. Set high in the Andes Mountains, Machu Picchu’s ancient ruins tell stories of the Inca Empire. The intricate stonework, terraced landscapes, and surrounding natural beauty combine to create a mystical experience. With Next GenTrip’s expertly guided tours, travelers can delve deep into the history and culture of this UNESCO World Heritage Site, all while enjoying breathtaking views of the mountains. It’s a dream destination for those with a passion for adventure and history.
+            A visit to Machu Picchu is an extraordinary journey, and Next Gen makes it seamless for explorers. Set high in the Andes Mountains, Machu Picchu’s ancient ruins tell stories of the Inca Empire. The intricate stonework, terraced landscapes, and surrounding natural beauty combine to create a mystical experience. With Next Gen’s expertly guided tours, travelers can delve deep into the history and culture of this UNESCO World Heritage Site, all while enjoying breathtaking views of the mountains. It’s a dream destination for those with a passion for adventure and history.
             </p>
             <p>
-            Lastly, Next GenTrip’s journeys to the Northern Lights offer a front-row seat to one of nature’s most dazzling displays. This breathtaking light show, seen from countries like Norway, Iceland, and Canada, captivates travelers with its vibrant colors that dance across the sky. Next GenTrip arranges the perfect conditions for witnessing this spectacle, including travel to remote areas with the clearest skies. Whether you’re a seasoned traveler or a first-time visitor, Next GenTrip ensures that your Northern Lights experience is unforgettable, leaving you with lasting memories of nature’s beauty.
+            Lastly, Next Gen’s journeys to the Northern Lights offer a front-row seat to one of nature’s most dazzling displays. This breathtaking light show, seen from countries like Norway, Iceland, and Canada, captivates travelers with its vibrant colors that dance across the sky. Next Gen arranges the perfect conditions for witnessing this spectacle, including travel to remote areas with the clearest skies. Whether you’re a seasoned traveler or a first-time visitor, Next Gen ensures that your Northern Lights experience is unforgettable, leaving you with lasting memories of nature’s beauty.
             </p>
           </div>
         </div>

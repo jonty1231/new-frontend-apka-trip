@@ -385,7 +385,7 @@ const page = () => {
     },
 
     packageOverView:
-      "Welcome to Himachal Pradesh, a land of breathtaking landscapes, serene mountain peaks, and vibrant cultures. Nestled in the northern part of India, this Himalayan paradise offers a perfect blend of adventure, relaxation, and cultural immersion. From snow-capped mountains to lush valleys and charming hill stations, Himachal Pradesh promises an unforgettable experience. At Next GenTrip India, we specialize in crafting personalized travel itineraries to help you explore the best that this magnificent state has to offer. Let us guide you through Himachal Pradesh’s top destinations, nique attractions,and memorable experiences.",
+      "Welcome to Himachal Pradesh, a land of breathtaking landscapes, serene mountain peaks, and vibrant cultures. Nestled in the northern part of India, this Himalayan paradise offers a perfect blend of adventure, relaxation, and cultural immersion. From snow-capped mountains to lush valleys and charming hill stations, Himachal Pradesh promises an unforgettable experience. At Next Gen India, we specialize in crafting personalized travel itineraries to help you explore the best that this magnificent state has to offer. Let us guide you through Himachal Pradesh’s top destinations, nique attractions,and memorable experiences.",
     price: 26999,
   }
  

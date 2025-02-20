@@ -238,7 +238,7 @@ dispatch(getAllRegHotels())
           <div className="w-full md:w-1/2 lg:w-1/3">
             <div className="text-center  p-4 rounded-lg">
               <div className="text-lg font-bold mb-2">
-                Download Next GenTrip App
+                Download Next Gen App
               </div>
               <div className="text-xs border p-3 border-dashed border-[#abc9ae] bg-[#e1ffe4] mb-2">
                 Save Up to Rs.5000 OFF on your first hotel <br /> booking Use

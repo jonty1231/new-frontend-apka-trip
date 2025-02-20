@@ -8,6 +8,8 @@ import Skeleton from "react-loading-skeleton";
 import "react-loading-skeleton/dist/skeleton.css";
 import { Autoplay} from 'swiper/modules';
 import {useTranslations} from 'next-intl';
+import axios from "axios";
+import { apilink } from "../common";
 const allData = [
   {
     title: "Exclusive Offer",
@@ -99,7 +101,7 @@ const CustomSlider = ({ isLoading, children }) => {
   const t = useTranslations('HomePage');
   const [loading, setLoading] = useState(true);
   const [activeTab, setActiveTab] = useState("TopOffer");
-
+const [bannerimg,setbannerImg]=useState()
   
 
   
@@ -114,7 +116,13 @@ const filteredData2=["/images/flight-slide2.png","/images/flight-slide1.png","/i
     setActiveTab(id);
   };
 
+  const fetchapi=async()=>{
+const response = await axios.get(`${apilink}/home/bannerimg`);
+   setbannerImg(response.data)
+  }
+
   useEffect(() => {
+    // fetchapi();
     const timeout = setTimeout(() => {
       setLoading(false);
     }, 2000); // Adjust the timeout duration as needed

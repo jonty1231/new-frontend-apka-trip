@@ -28,7 +28,7 @@ const page = () => {
     placeName: "Leh",
 
     packageOverView:
-      "Welcome to Leh, the heart of Ladakh and a gateway to the Himalayas, where ancient monasteries,rugged landscapes, and high-altitude adventures converge to create a travel experience unlike anyother. Nestled amidst the snow-capped peaks of the northernmost region of India, Leh offers a blendof natural beauty, cultural richness, and thrilling experiences. At Next GenTrip India, we specialize in  curating personalized travel itineraries to help you explore the mesmerizing beauty of Leh. Let us take you on a journey through Leh’s top destinations, attractions, and unique experiences.",
+      "Welcome to Leh, the heart of Ladakh and a gateway to the Himalayas, where ancient monasteries,rugged landscapes, and high-altitude adventures converge to create a travel experience unlike anyother. Nestled amidst the snow-capped peaks of the northernmost region of India, Leh offers a blendof natural beauty, cultural richness, and thrilling experiences. At Next Gen India, we specialize in  curating personalized travel itineraries to help you explore the mesmerizing beauty of Leh. Let us take you on a journey through Leh’s top destinations, attractions, and unique experiences.",
     price: 20999,
     reasons: {
       heading:

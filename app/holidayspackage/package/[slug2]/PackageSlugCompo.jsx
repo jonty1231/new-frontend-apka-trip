@@ -65,9 +65,9 @@ setPackageInfo(res.data)
 
 
 
-<section className='mx-24 my-3 grid grid-cols-3 gap-2 shadow-lg rounded-md p-3 '>
+<section className='mx-4 lg:mx-24 my-3 grid  lg:grid-cols-3 gap-2 shadow-lg rounded-md p-3 '>
 
-<div className='col-span-2'>
+<div className='lg:col-span-2'>
 <div  className='flex  items-center gap-1'>
 <h2 className="text-3xl font-bold text-[#372326] my-5 ">
 The Best of {packageInfo.country} &amp;  {packageInfo.city} <span className=""> {packageInfo.package_Type} Package</span>

@@ -24,14 +24,14 @@ const page = () => {
     {
       id: 1,
       label: "Reviews",
-      content: <Review setActiveTab={setActiveTab}  CheckOutData={CheckOutData && CheckOutData[0]}/>,
+      content: <Review setActiveTab={setActiveTab}  CheckOutData={CheckOutData}/>,
     },
     {
       id: 2,
       label: "Travellers",
-      content: <Travellers fdatas={ CheckOutData && CheckOutData[0]}  setActiveTab={setActiveTab} />,
+      content: <Travellers fdatas={ CheckOutData}  setActiveTab={setActiveTab} />,
     },
-    { id: 3, label: "Payment", content: <Payment CheckOutData={CheckOutData && CheckOutData[0]} /> },
+    { id: 3, label: "Payment", content: <Payment CheckOutData={CheckOutData} /> },
   ];
 
 

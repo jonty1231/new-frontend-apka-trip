@@ -118,7 +118,7 @@ const page = () => {
                 </div>
                 <div>
                   <p className="text-lg font-bold" id="">
-                  Next GenTrip
+                  Next Gen
                   </p>
                   <p className="text-sm font-medium" id="trnName">
                     GOA EXPRESS

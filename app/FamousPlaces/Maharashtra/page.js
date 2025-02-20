@@ -29,7 +29,7 @@ const page = () => {
     placeName: "Maharashtra",
 
     packageOverView:
-      "Welcome to Maharashtra, a state that beautifully blends history, culture, and natural splendor. From the bustling metropolis of Mumbai to the tranquil hill stations and stunning coastal regions, Maharashtra offers an array of experiences for every traveler. Whether you&#39;re an adventure seeker, a history buff, or simply looking to relax, Maharashtra has something special for you. At Next GenTrip India, we are dedicated to crafting personalized travel experiences to help you uncover the best of this diverse state. Let us guide you through Maharashtra’s top destinations, unique attractions, and unforgettable experiences.",
+      "Welcome to Maharashtra, a state that beautifully blends history, culture, and natural splendor. From the bustling metropolis of Mumbai to the tranquil hill stations and stunning coastal regions, Maharashtra offers an array of experiences for every traveler. Whether you&#39;re an adventure seeker, a history buff, or simply looking to relax, Maharashtra has something special for you. At Next Gen India, we are dedicated to crafting personalized travel experiences to help you uncover the best of this diverse state. Let us guide you through Maharashtra’s top destinations, unique attractions, and unforgettable experiences.",
     price: 29999,
     reasons: {
       heading:

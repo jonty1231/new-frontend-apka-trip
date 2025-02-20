@@ -128,7 +128,7 @@ const page = () => {
     ],
 
     packageOverView:
-      "Welcome to Singapore, a captivating city-state that perfectly blends modernity with tradition. Renowned for its stunning skyline, lush gardens, and rich cultural tapestry, Singapore offers an unparalleled travel experience. From futuristic architecture to vibrant street markets, Singapore is a city of contrasts and delights. At Next GenTrip India, we specialize in crafting bespoke itineraries that ensure you experience the very best of this dynamic city. Join us as we explore Singapore’s top destinations, attractions, and unique experiences.",
+      "Welcome to Singapore, a captivating city-state that perfectly blends modernity with tradition. Renowned for its stunning skyline, lush gardens, and rich cultural tapestry, Singapore offers an unparalleled travel experience. From futuristic architecture to vibrant street markets, Singapore is a city of contrasts and delights. At Next Gen India, we specialize in crafting bespoke itineraries that ensure you experience the very best of this dynamic city. Join us as we explore Singapore’s top destinations, attractions, and unique experiences.",
     price: 27999,
     reasons: {
       heading:

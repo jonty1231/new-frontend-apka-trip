@@ -156,7 +156,7 @@ const page = () => {
     ],
 
     packageOverView:
-      "Welcome to Switzerland, a land where majestic mountains meet pristine lakes and charming villages. Known for its breathtaking landscapes, rich cultural heritage, and impeccable precision, Switzerland is a traveler&#39;s paradise. From the serene beauty of the Swiss Alps to the vibrant urban life in cities like Zurich and Geneva, Switzerland offers a wide range of experiences for every type of traveler. At Next GenTrip India, we specialize in creating personalized itineraries that capture the essence of this stunning country. Let us take you on a journey through Switzerland’s top destinations, attractions, and unique experiences.",
+      "Welcome to Switzerland, a land where majestic mountains meet pristine lakes and charming villages. Known for its breathtaking landscapes, rich cultural heritage, and impeccable precision, Switzerland is a traveler&#39;s paradise. From the serene beauty of the Swiss Alps to the vibrant urban life in cities like Zurich and Geneva, Switzerland offers a wide range of experiences for every type of traveler. At Next Gen India, we specialize in creating personalized itineraries that capture the essence of this stunning country. Let us take you on a journey through Switzerland’s top destinations, attractions, and unique experiences.",
     price: 25999,
     reasons: {
       heading:

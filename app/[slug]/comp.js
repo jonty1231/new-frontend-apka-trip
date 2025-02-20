@@ -166,6 +166,7 @@ const comp = ({ slug }) => {
   }, [info]);
 
   const [traceid, settraceid] = useState();
+  
   useEffect(() => {
 
 
@@ -243,26 +244,25 @@ const comp = ({ slug }) => {
   };
 
   const togglePopup = (id, ResultIndex) => {
-    // dispatch(getfarequote({ResultIndex:ResultIndex.ResultIndex, TraceId: traceid }));
+    dispatch(getfarequote({ResultIndex:ResultIndex.ResultIndex, TraceId: traceid }));
 
-    // if (activePopup === id) {
-    //   setActivePopup(null);
-    // } else {
-    //   setActivePopup(id);
-    // }
+    if (activePopup === id) {
+      setActivePopup(null);
+    } else {
+      setActivePopup(id);
+    }
     let data = [];
     data.push(ResultIndex);
 
-    localStorage.setItem("checkOutFlightDetail", JSON.stringify(data));
-    window.location.href = "/flight/checkout";
+    localStorage.setItem("checkOutFlightDetail", JSON.stringify({data:ResultIndex,ResultIndex:ResultIndex.ResultIndex,IsLCC:ResultIndex.IsLCC,traceid,ip:newtIp}));
+    // window.location.href = "/flight/checkout";
 
 
   };
 
   const saveDataInLocal = (flight, price) => {
-    console.log(data);
-    data.push(price);
-
+   
+    window.location.href = "/flight/checkout";
 
 
 
@@ -960,6 +960,7 @@ const comp = ({ slug }) => {
                                             </p>
                                           </div>
                                         </div>
+                                        {flight.IsLCC &&
                                         <button
                                           onClick={
                                             () =>
@@ -971,11 +972,26 @@ const comp = ({ slug }) => {
                                           }
                                           className="block text-[11.5px]  md:text-sm font-semibold md:h-8 text-blue-600 rounded-full p-1 px-2 md:px-4 bg-blue-200 border border-blue-600"
                                         >
+                                           
                                           <span className="hidden md:inline">
                                             VIEW
                                           </span>{" "}
                                           PRICES
-                                        </button>
+                                        </button> }
+
+
+                                        {!flight.IsLCC &&
+                                        <button
+                                          
+                                          className="block text-[11.5px]  md:text-sm font-semibold md:h-8 text-white rounded-full p-1 px-2 md:px-4 bg-red-600 border border-blue-600"
+                                        >
+                                           
+                                          <span className="hidden md:inline">
+                                            VIEW
+                                          </span>{" "}
+                                          PRICES
+                                        </button> }
+
                                       </div>
                                     ) : (
                                       <div className="flex items-center gap-x-3 opacity-0">
@@ -1416,7 +1432,7 @@ const comp = ({ slug }) => {
                                                     Time Frame
                                                   </th>
                                                   <th className="border border-gray-300 px-4 text-sm py-2 text-left">
-                                                    Airline Fee + Next GenTrip Fee
+                                                    Airline Fee + Next Gen Fee
                                                     (Per Passenger)
                                                   </th>
                                                 </tr>
@@ -1470,7 +1486,7 @@ const comp = ({ slug }) => {
                                                     Time Frame
                                                   </th>
                                                   <th className="border border-gray-300 px-4 py-2 text-sm text-left">
-                                                    Airline Fee + Next GenTrip Fee
+                                                    Airline Fee + Next Gen Fee
                                                     (Per Passenger)
                                                   </th>
                                                 </tr>
@@ -1687,6 +1703,10 @@ const comp = ({ slug }) => {
                                       }
                                       className="block text-[11.5px] md:text-sm font-semibold h-8 text-blue-600 rounded-full p-1 px-3 md:px-4 bg-blue-200 border border-blue-600"
                                     >
+                                      {
+
+
+                                      }
                                       <span className="hidden md:inline">
                                         VIEW
                                       </span>
@@ -2094,7 +2114,7 @@ const comp = ({ slug }) => {
                                                     Time Frame
                                                   </th>
                                                   <th className="border border-gray-300 px-4 text-sm py-2 text-left">
-                                                    Airline Fee + Next GenTrip Fee
+                                                    Airline Fee + Next Gen Fee
                                                     (Per Passenger)
                                                   </th>
                                                 </tr>
@@ -2148,7 +2168,7 @@ const comp = ({ slug }) => {
                                                     Time Frame
                                                   </th>
                                                   <th className="border border-gray-300 px-4 py-2 text-sm text-left">
-                                                    Airline Fee + Next GenTrip Fee
+                                                    Airline Fee + Next Gen Fee
                                                     (Per Passenger)
                                                   </th>
                                                 </tr>

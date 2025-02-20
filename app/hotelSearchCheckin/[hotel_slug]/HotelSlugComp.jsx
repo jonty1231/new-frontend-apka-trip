@@ -352,7 +352,7 @@ const togglePopup = () => setIsOpen(!isOpen);
             </div>
             <div className="mb-5">
               <h2 className="text-xl font-semibold">Services</h2>
-              <ul className="flex mt-4 space-x-4">
+              <ul className="flex mt-4 space-x-4 text-sm ">
                 <li className="flex gap-2 items-center">
                   <FaCheck className="text-green-600" />
                   Wi-Fi

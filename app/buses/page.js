@@ -14,7 +14,7 @@ const Page = () => {
         "/images/ticket-charges.svg",
       title: "Lowest Ticket Charges",
       description:
-        "Grab huge discounts and cashbacks on your bus booking with Next GenTrip .",
+        "Grab huge discounts and cashbacks on your bus booking with Next Gen .",
     },
     {
       imageSrc: "/images/operators.svg",
@@ -47,21 +47,21 @@ const Page = () => {
         <div className="block md:flex items-center justify-between gap-4 px-5 lg:px-20">
           <div className="max-w-2xl">
             <h2 className="text-2xl lg:text-3xl font-bold text-black">
-              Why Choose Next GenTrip  for Bus Ticket Booking?
+              Why Choose Next Gen  for Bus Ticket Booking?
             </h2>
             <p className="text-lg mt-4 text-justify">
-              Next GenTrip  is a wonderful platform for all bus travelers. Whether
+              Next Gen  is a wonderful platform for all bus travelers. Whether
               you are planning to travel to Manali or Jaipur, you can discover
               your favorite place through luxury and budgeted buses including
               sleeper, AC/NON-AC, Volvo, semi-sleeper, and room.
               <br />
               Our easy-to-use platform provides a hassle-free booking
               experience, and you too can opt for bus booking online at
-              Next GenTrip  and ditch long queues for bus tickets. Booking bus
-              tickets online has never been this easy, but with Next GenTrip 's
+              Next Gen  and ditch long queues for bus tickets. Booking bus
+              tickets online has never been this easy, but with Next Gen 's
               simple user interface, you can book bus tickets within a few
               clicks. Choose from 3999+ bus operators and book bus tickets
-              online from the comfort of your home. Download the Next GenTrip  app
+              online from the comfort of your home. Download the Next Gen  app
               to book flight tickets, train tickets, and bus tickets at the
               lowest prices seamlessly.
             </p>
@@ -95,10 +95,10 @@ const Page = () => {
               Who doesn’t love exploring places by road? The captivating
               landscapes that are seen on both sides of the bus are the sites to
               behold. Travelers who love to explore places by road can choose
-              online bus booking at Next GenTrip  and also save huge money. Why
+              online bus booking at Next Gen  and also save huge money. Why
               would you go out and look for a travel agency to book a tour bus
               when you can do it by yourself? It takes less than a minute to
-              book a bus ticket at Next GenTrip . The simple interface, easy
+              book a bus ticket at Next Gen . The simple interface, easy
               navigation, and fast speed of the portal allow you to book a bus
               to your favorite destination within a few seconds.
             </p>
@@ -106,8 +106,8 @@ const Page = () => {
             <p className="text-lg text-justify">
               Whether you want to travel via AC/Non-AC bus, semi-sleeper bus,
               smart bus, deluxe bus, luxury bus, budgeted bus, or Volvo bus
-              booking Next GenTrip  has got everything covered for you. Enjoy a
-              hassle-free booking experience at Next GenTrip  and discover your
+              booking Next Gen  has got everything covered for you. Enjoy a
+              hassle-free booking experience at Next Gen  and discover your
               favorite place. There are around 3999+ bus operators for online
               bus ticket booking at this portal, choose the best one that suits
               your bus ticket booking demand and enjoy your bus journey like
