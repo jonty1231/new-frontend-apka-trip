@@ -155,7 +155,7 @@ const Page = () => {
 
   const contactInfo = {
     phone: "+1 (800) 123-4567",
-    email: "corporate@NextGenTrip.com",
+    email: "corporate@NextGen.com",
     liveChat: "Available 24/7",
     socialLinks: {
       linkedin: "#",

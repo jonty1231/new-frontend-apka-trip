@@ -2,7 +2,7 @@
 import React, { useEffect, useState } from 'react'
 
 const Maintenance = () => {
-  const targetDate = new Date("January 1, 2025 00:00:00").getTime();
+  const targetDate = new Date("march 1, 2025 00:00:00").getTime();
   const [day,setdays]=useState()
   const [hour,sethours]=useState()
   const [minute,setminute]=useState()

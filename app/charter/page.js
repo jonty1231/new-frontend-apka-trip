@@ -452,11 +452,11 @@ if(res.data.success){
          {/* Text Section */}
          <div className="w-full space-y-6 md:space-y-10 text-center md:text-left">
            <h4 className="font-bold text-xl md:text-2xl lg:text-3xl text-[#42A6EF]">
-             Benefits of Choosing Next GenTrip  for Your Charter 
+             Benefits of Choosing Next Gen  for Your Charter 
            </h4>
            <p className="text-gray-700 text-sm md:text-base lg:text-lg leading-relaxed">
              Experience seamless planning, exclusive deals, and personalized
-             service with Next GenTrip . We ensure your charter vacation is
+             service with Next Gen . We ensure your charter vacation is
              unforgettable, offering expert advice, flexible options, and
              unparalleled support every step of the way.
            </p>

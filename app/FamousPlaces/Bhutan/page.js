@@ -363,7 +363,7 @@ const page = () => {
       },
     ],
     packageOverView:
-      "Welcome to Bhutan, the Land of the Thunder Dragon, where tradition meets nature in a unique and mesmerizing blend. Nestled in the Eastern Himalayas, Bhutan offers a captivating escape with its breathtaking landscapes, rich cultural heritage, and commitment to preserving its ancient customs and environment. Known for its Gross National Happiness philosophy, Bhutan is a sanctuary for those seeking tranquility, adventure, and cultural immersion. At Next GenTrip India, we specialize in creating personalized travel experiences that highlight the best of this enchanting kingdom. Let us guide you through Bhutan’s top destinations, attractions, and activities to ensure an unforgettable journey.",
+      "Welcome to Bhutan, the Land of the Thunder Dragon, where tradition meets nature in a unique and mesmerizing blend. Nestled in the Eastern Himalayas, Bhutan offers a captivating escape with its breathtaking landscapes, rich cultural heritage, and commitment to preserving its ancient customs and environment. Known for its Gross National Happiness philosophy, Bhutan is a sanctuary for those seeking tranquility, adventure, and cultural immersion. At Next Gen India, we specialize in creating personalized travel experiences that highlight the best of this enchanting kingdom. Let us guide you through Bhutan’s top destinations, attractions, and activities to ensure an unforgettable journey.",
     price: 21233,
   };
 

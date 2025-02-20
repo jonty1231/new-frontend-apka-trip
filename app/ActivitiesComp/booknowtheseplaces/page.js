@@ -265,7 +265,7 @@ const page = () => {
                   <p className="leading-6 pt-2 text-base">
                     Book your ride in minutes through our app or website.
                     Whether it's a daily commute, a quick errand, or a
-                    last-minute meeting, Next GenTrip has the perfect cab for your
+                    last-minute meeting, Next Gen has the perfect cab for your
                     local travel needs.
                   </p>
                 </div>
@@ -336,7 +336,7 @@ const page = () => {
                   </p>
                   <p className="leading-6 pt-2 text-base">
                     Confirm your booking and track your cab in real-time. Sit
-                    back and enjoy a smooth and comfortable ride with Next GenTrip.
+                    back and enjoy a smooth and comfortable ride with Next Gen.
                   </p>
                 </div>
               </li>

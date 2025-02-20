@@ -168,11 +168,11 @@ const Footer = () => {
         <div className="mx-auto max-w-7xl lg:py-10 px-6 pb-8 pt-16 sm:pt-24 lg:px-8 lg:pt-10">
           <div className="Recomended TabChanges space-y-4">
             <p className="text-sm font-semibold text-gray-700 lg:text-3xl ">
-              Recommended by <span className="text-blue-500">NextGenTrip.com</span>
+              Recommended by <span className="text-blue-500">NextGen .com</span>
             </p>
 
             <div className="tabSection">
-              <div className="flex overflow-scroll items-center  gap-3 ">
+              <div className="flex overflow-hidden items-center  gap-3 ">
                 <button
                   onClick={() => setActiveTab(1)}
                   className={`${
@@ -490,7 +490,7 @@ const Footer = () => {
 
               <div className=" ">
                 <div className=" mb-3">
-                  Download Next GenTrip  App <span className=""></span>
+                  Download Next Gen  App <span className=""></span>
                 </div>
                 <div className="flex">
                   <div className="apiconh">
@@ -535,7 +535,7 @@ const Footer = () => {
 
           <div className="belowFooter mt-16 flex justify-between border-t border-gray-900/10 pt-4 sm:mt-20 lg:mt-6 ">
             <p className="text-sm leading-5 text-gray-500">
-              © 2024 Next GenTrip  All Rights Reserved.
+              © 2024 Next Gen  All Rights Reserved.
             </p>
             <Link
               href="/condition/privacy-policy"
@@ -549,5 +549,6 @@ const Footer = () => {
     </>
   );
 };
+
 
 export default Footer;

@@ -122,7 +122,7 @@ const page = () => {
 
           <div className="text-[#4B97F0] font-bold">
             {" "}
-            <span className="text-orange-600">Welcome </span> to Next GenTrip{" "}
+            <span className="text-orange-600">Welcome </span> to Next Gen{" "}
           </div>
           <div className="w-full flex flex-col gap-1">
             <label htmlFor="email">Email</label>
@@ -179,7 +179,7 @@ const page = () => {
         {/* sign up code  */}
         <div className="p-3">
           <div
-            className={`bg-white p-2 md:p-5 w-full rounded-md shadow-md flex flex-col md:items-center gap-3  ${
+            className={`bg-white p-2 md:p-5 md:w-[40rem] rounded-md shadow-md flex flex-col md:items-center gap-3  ${
               !loginpage
                 ? "scale-0 origin-bottom-right"
                 : "scale-1 origin-top-left"
@@ -191,7 +191,7 @@ const page = () => {
 
             <div className="text-[#4B97F0] font-bold text-center">
               {" "}
-              <span className="text-orange-600">Welcome </span> to Next GenTrip{" "}
+              <span className="text-orange-600">Welcome </span> to Next Gen{" "}
             </div>
             <div className="md:w-full flex flex-col md:flex-row  md:gap-5">
               <div className=" flex flex-col gap-1 w-full">

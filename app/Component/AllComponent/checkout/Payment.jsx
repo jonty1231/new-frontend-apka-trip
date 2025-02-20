@@ -75,7 +75,7 @@ const [user,setUser]=useState()
   useEffect(()=>{
 
     const userid=JSON.parse(localStorage.getItem("NextGenUser"));
-  if(!userid) router.push("/user/login")
+  // if(!userid) router.push("/user/login")
   
   const fetchuserData=async()=>{
   

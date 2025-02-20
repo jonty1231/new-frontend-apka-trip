@@ -437,7 +437,7 @@ const page = () => {
     },
 
     packageOverView:
-      "Welcome to Bali, the Island of the Gods, where stunning landscapes, rich culture, and endless adventure converge. From its pristine beaches to lush rice terraces and vibrant temples, Bali offers an unparalleled travel experience. At Next GenTrip India, we are dedicated to curating personalized itineraries that highlight the best of Bali’s top tourist destinations. Let us guide you through Bali’s must-see spots, exciting activities, and cultural experiences for an unforgettable journey.",
+      "Welcome to Bali, the Island of the Gods, where stunning landscapes, rich culture, and endless adventure converge. From its pristine beaches to lush rice terraces and vibrant temples, Bali offers an unparalleled travel experience. At Next Gen India, we are dedicated to curating personalized itineraries that highlight the best of Bali’s top tourist destinations. Let us guide you through Bali’s must-see spots, exciting activities, and cultural experiences for an unforgettable journey.",
     price: 25233,
   };
 

@@ -136,7 +136,7 @@ export default function page() {
 
                       <p className="text-gray-700 text-lg text-center mb-8">
                         "To take care of every traveler's journey with the
-                        utmost responsibility and integrity. NextGenTrip.com is
+                        utmost responsibility and integrity. Nextgen.com is
                         committed to providing reliable, personalized travel
                         solutions that prioritize safety, trust, and meaningful
                         experiences, ensuring that every trip feels secure and
@@ -147,7 +147,7 @@ export default function page() {
                       </h2>
                       <p className="text-gray-700 text-lg text-center">
                         "हर यात्री की यात्रा का पूरी ज़िम्मेदारी और ईमानदारी के
-                        साथ ख्याल रखना। NextGenTrip.com का संकल्प है कि वह
+                        साथ ख्याल रखना। Nextgen.com का संकल्प है कि वह
                         सुरक्षित, विश्वसनीय और व्यक्तिगत यात्रा समाधान प्रदान
                         करे, जिससे हर यात्रा सुरक्षित और सुगम महसूस हो।"
                       </p>

@@ -302,7 +302,6 @@ const BusComp = () => {
                     className="absolute rounded-full text-white  bg-gray-400 right-0 top-0 bg"
                   >
           
-                    <RxCross2 />
                   </button>
                   <div className="flex flex-col">
                     <span className="text-[22px] md:text-2xl text-black font-bold">
@@ -360,7 +359,7 @@ const BusComp = () => {
                     className="absolute rounded-full text-white  bg-gray-400 right-0 top-0 bg"
                   >
                     {" "}
-                    <RxCross2 />
+                   
                   </button>
                   <div className="flex flex-col">
                     <span className="text-[22px] md:text-2xl text-black font-bold">

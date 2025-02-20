@@ -515,7 +515,7 @@ const Header = () => {
         listData: [
           {
             link: "/",
-            list: " NextGenTrip.com",
+            list: " NextGen.com",
           },
           // {
           //   link: "",
@@ -933,7 +933,7 @@ const Header = () => {
           </div>
 
           <div className=" px-4 border-b-2 shadow-sm  space-y-2 py-3 ">
-            <div className="overflow-scroll tabs 1stTab text-sm text-nowrap  md:text-sm  flex  md:gap-2 font-bold text-black  ">
+            <div className=" tabs 1stTab text-sm text-nowrap  md:text-sm  flex  md:gap-2 font-bold text-black  ">
               <button
                 className={`md:px-4 py-1  font-bold rounded-3xl ${JourneyType === 1 ? "bg-white text-[#000] active" : " "
                   } transition-colors duration-300 ease-in-out`}
@@ -976,7 +976,7 @@ const Header = () => {
                       onClick={() => setfromcity(false)}
                     >
                       {" "}
-                      <RxCross2 />
+                      {/* <RxCross2 /> */}
                     </button>
                     <div className="flex flex-col">
                       <span className="text-[22px] lg:text-2xl  text-black font-bold">
@@ -1023,7 +1023,7 @@ const Header = () => {
                       onClick={() => setAnyWhere(false)}
                     >
                       {" "}
-                      <RxCross2 />
+                      {/* <RxCross2 /> */}
                     </button>
 
                     <div className="flex flex-col">
@@ -1160,7 +1160,8 @@ const Header = () => {
                     <p className="text-slate-400 text-xs">Traveller(s)</p>
                   </div>
                   <button onClick={() =>{ setIsVisible(true),setSelectedOption("count")}}>Edit</button>
-                  {isVisible &&  selectedOption==="count" && <div className="absolute top-[80%]  min-w-full min-h-[10rem] -left-10  z-10 " >
+                  {isVisible &&  selectedOption==="count" &&
+                   <div className="absolute top-[80%]  min-w-full min-h-[10rem] -left-10  z-10 " >
                       <div className="shadow-2xl rounded-md  bg-white mt-[10%]  flex flex-col gap-4 p-4">
                         <div className="flex gap-3 justify-between"><p className="text-nowrap">Adult Count </p> <div className="flex items-center gap-3"> <button className="px-2 border" onClick={()=>{adultCount>1?setAdultCount(adultCount-1):null}}>-</button> <p className=" px-2 border">{adultCount}</p> <button className="px-2 border"onClick={()=>setAdultCount(adultCount+1)} >+</button> </div> </div>
                         <div className="flex gap-3 justify-between"><p className="text-nowrap">Child Count </p> <div className="flex items-center gap-3"> <button className="px-2 border" onClick={()=>{childCount>0?setChildCount(childCount-1):null}}>-</button> <p className=" px-2 border">{childCount}</p> <button className="px-2 border"onClick={()=>setChildCount(childCount+1)} >+</button> </div> </div>

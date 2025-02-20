@@ -289,7 +289,7 @@ const page = () => {
                 atolls, crystal-clear waters, and rich marine biodiversity. As
                 India’s smallest Union Territory, Lakshadweep offers an
                 exclusive and serene escape perfect for nature lovers, adventure
-                seekers, and those looking for a peaceful retreat. At Next GenTrip
+                seekers, and those looking for a peaceful retreat. At Next Gen
                 India, we offer meticulously crafted travel packages to ensure
                 your Lakshadweep adventure is extraordinary from start to
                 finish.

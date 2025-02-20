@@ -49,7 +49,7 @@ const handelseetbook=(seat)=>{
 
   <div className="bg-white shadow-2xl rounded-lg p-8 ">
         <h1 className="text-3xl font-bold text-gray-800 mb-6 text-center mt-2">
-        NextGenTrip.com
+        NextGen.com
         </h1>
         <form className="space-y-6">
           {/* Title */}

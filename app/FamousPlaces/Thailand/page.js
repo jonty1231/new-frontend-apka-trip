@@ -132,7 +132,7 @@ const page = () => {
       ,
 
       packageOverView:
-        "Welcome to Thailand, a land of captivating beauty, vibrant culture, and unforgettable experiences. From the bustling streets of Bangkok to the serene beaches of Phuket, Thailand offers an extraordinary range of attractions for every traveler. At Next GenTrip India, we specialize in crafting personalized itineraries that showcase the best of Thailand’s diverse destinations. Let us guide you through Thailand’s top tourist spots, unique activities, and essential travel tips for an unforgettable journey.",
+        "Welcome to Thailand, a land of captivating beauty, vibrant culture, and unforgettable experiences. From the bustling streets of Bangkok to the serene beaches of Phuket, Thailand offers an extraordinary range of attractions for every traveler. At Next Gen India, we specialize in crafting personalized itineraries that showcase the best of Thailand’s diverse destinations. Let us guide you through Thailand’s top tourist spots, unique activities, and essential travel tips for an unforgettable journey.",
       price: 33999,
       reasons: {
         heading: "Thailand is renowned for its",

@@ -184,7 +184,7 @@ const page = () => {
     },
 
     packageOverView:
-      "Welcome to Jaipur, the dazzling &quot;Pink City&quot; where history, culture, and grandeur come together to offer an unforgettable travel experience. Known for its majestic forts, opulent palaces, and vibrant markets, Jaipur is a city steeped in royal heritage and cultural richness. At Next GenTrip India, we specialize in creating tailor-made experiences that showcase the very best of this enchanting city. Allow us to guide you through Jaipur&#39;s treasures and craft a journey that is as magnificent as the city itself.",
+      "Welcome to Jaipur, the dazzling &quot;Pink City&quot; where history, culture, and grandeur come together to offer an unforgettable travel experience. Known for its majestic forts, opulent palaces, and vibrant markets, Jaipur is a city steeped in royal heritage and cultural richness. At Next Gen India, we specialize in creating tailor-made experiences that showcase the very best of this enchanting city. Allow us to guide you through Jaipur&#39;s treasures and craft a journey that is as magnificent as the city itself.",
     price: 24999,
   }
 

@@ -231,11 +231,11 @@ const page = () => {
       {
         heading: "Budget Stays",
         AccommodationList:
-          "Find comfortable and affordable accommodations at budget hotels and hostels, including options like NextGenTrip.com.",
+          "Find comfortable and affordable accommodations at budget hotels and hostels, including options like NextGen.com.",
       },
     ],
     packageOverView:
-      "Welcome to Bengaluru, India’s vibrant “Silicon Valley,” where technology meets tradition amidst lush green landscapes and a bustling cosmopolitan scene. Known for its pleasant climate, innovative spirit, and rich cultural heritage, Bengaluru offers an exceptional travel experience for every type of explorer. At Next GenTrip India, we specialize in crafting unique and personalized itineraries that showcase the best of this dynamic city. Let us guide you through Bengaluru’s top attractions, hidden gems, and unforgettable experiences.",
+      "Welcome to Bengaluru, India’s vibrant “Silicon Valley,” where technology meets tradition amidst lush green landscapes and a bustling cosmopolitan scene. Known for its pleasant climate, innovative spirit, and rich cultural heritage, Bengaluru offers an exceptional travel experience for every type of explorer. At Next Gen India, we specialize in crafting unique and personalized itineraries that showcase the best of this dynamic city. Let us guide you through Bengaluru’s top attractions, hidden gems, and unforgettable experiences.",
     price: 28999,
   }
   return (

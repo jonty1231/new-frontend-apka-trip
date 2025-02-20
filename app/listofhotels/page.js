@@ -137,7 +137,7 @@ export default function Hotels() {
             List Your Property for Free & Boost Your Earnings Instantly
           </h3>
           <p className="text-base md:text-lg lg:text-xl text-white">
-            Register your hotel on Next GenTrip and enjoy profitability with global
+            Register your hotel on Next Gen and enjoy profitability with global
             reach today.
           </p>
           <div className="flex justify-center">
@@ -151,7 +151,7 @@ export default function Hotels() {
       <div className="px-0 sm:px-8 md:px-12 lg:px-20 py-8  space-y-12">
         <div className="Tyeps-of-Properties">
           <h3 className="text-2xl md:text-3xl lg:text-4xl font-bold text-gray-900 text-center mb-8">
-            What Type of Properties Can Be Listed On Next GenTrip?
+            What Type of Properties Can Be Listed On Next Gen?
           </h3>
           <div className="bg-white rounded-lg shadow-lg overflow-hidden">
             <div className="p-4 sm:p-6 lg:p-8">
