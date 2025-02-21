@@ -30,7 +30,7 @@ export default function page() {
               className="bg-white text-gray-600 py-2 px-6 rounded-lg font-semibold shadow-md hover:bg-gray-100"
             >
               Learn 
-            </Link>
+            </Link>  
           </div>
         </section>
 
