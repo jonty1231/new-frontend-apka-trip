@@ -129,7 +129,7 @@ const page = () => {
           <h6 className="text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-bold text-white">
             Welcome to NextGen Membership Club
           </h6>
-          <p className="lg:w-[80%] text-base lg:text-lg tracking-tight">
+          <p className="lg:w-[80%] text-base lg:text-lg tracking-tight text-gray-300">
             Extraordinary travel meets unparalleled exclusivity here. We think
             that travelling has not only to be a journey but also customized
             according to your desires, luxury, and adventure, and you get

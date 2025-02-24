@@ -1,5 +1,5 @@
 "use client";
-import HotelsComp from "../../Component/AllComponent/formMaincomp/HotelsComp";
+import HotelsComp from "../../Component/AllComponent/formMaincomp/HotelComp";
 
 import { getAllhotelsapi } from "../../Component/Store/slices/hotelsSlices";
 import React, { useEffect, useState } from "react";

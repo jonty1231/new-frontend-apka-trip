@@ -13,7 +13,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { useRouter } from 'next/navigation';
 import { getAllhotelsapi } from '../../../Component/Store/slices/hotelsSlices';
-import HotelsComp from '../../../Component/AllComponent/formMaincomp/HotelsComp';
+import HotelsComp from '../../../Component/AllComponent/formMaincomp/HotelComp';
 
 
 const Comp = ({slug}) => {

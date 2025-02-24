@@ -4,8 +4,9 @@ import CustomSlider from "../Component/AllComponent/Slider";
 import FAQSection from "../Component/AllComponent/FAQ";
 import Link from "next/link";
 import HotelChains from "../Component/AllComponent/HotelChain";
-import HotelComp from "../Component/AllComponent/formMaincomp/HotelsComp";
+import HotelComp from "../Component/AllComponent/formMaincomp/HotelComp";
 import Hotelmobileheader from "../Component/AllComponent/Hotelmobilheader";
+
 import { FaStar } from "react-icons/fa6";
 import { useDispatch, useSelector } from "react-redux";
 import { getAllRegHotels } from "../Component/Store/slices/getReqHotels";
@@ -52,6 +53,7 @@ dispatch(getAllRegHotels())
   return (
     <>
    
+
     <HotelComp />
       <CustomSlider />
       <div className="px-0 lg:px-20">
