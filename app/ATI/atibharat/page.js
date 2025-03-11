@@ -206,13 +206,13 @@ return (
     Headquarter
   </h2>
   <p className="text-base text-gray-600">
-    [Company Address]
+    [SCO No. 371,72,73 Sector 34A, Chandigarh 160022]
     <br />
-    City, Country
+ 
     <br />
     [+(91) 9877579319]
     <br />
-    [NextGenindia@gmail.com]
+    [nextgentrip1@gmail.com]
   </p>
 </div>
 <div className="bg-[#F1F5F9] p-8 rounded-lg space-y-4">

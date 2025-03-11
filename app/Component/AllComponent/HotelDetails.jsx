@@ -107,6 +107,7 @@ export default function ChooseFlightHotelDetailchild({ getChildValue }) {
       price: "9100",
     },
   ];
+  
 
   return (
       <div>

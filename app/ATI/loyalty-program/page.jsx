@@ -127,10 +127,10 @@ const page = () => {
     aboutTitle: "About NextGen",
     aboutText: "NextGen is one of the world's most trusted travel agencies, believing every trip should be memorable, smooth, and rewarding. Our Loyalty Program is our endeavour to make your travel experience as unique as possible with exclusive rewards and personalized services that help you find and explore the world and enjoy great benefits along the way.",
     companyDetails: {
-      address: "Company Address",
-      city: "City, Country",
-      telephone: "[Telephone Number]",
-      email: "[e-mail address]"
+      address: "SCO No. 371,72,73 Sector 34A, Chandigarh 160022",
+      city: "",
+      telephone: "+(91) 9877579319",
+      email: "[nextgentrip1@gmail.com]"
     },
     socialLinks: [
       { platform: "Instagram", link: "#" },

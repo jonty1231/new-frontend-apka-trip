@@ -7,6 +7,7 @@ import 'react-international-phone/style.css';
 import axios from 'axios';
 import { apilink, imgurl } from '../Component/common';
 import { toast ,Bounce} from 'react-toastify';
+import { useRouter } from 'next/navigation';
 
 
 
@@ -20,7 +21,7 @@ export default function page() {
   });
 const [sendOtp,setSendOtp]=useState(false)
 const [otp, setOtp] = useState(['', '', '', '', '', '']);
-  
+  const route =useRouter()
   const handleOtpChange = (e, index) => {
     const value = e.target.value;
     if (/[^0-9]/.test(value)) return; // Allow only numbers
@@ -60,6 +61,7 @@ setFormData((prev) => ({ ...prev, [e.target.name]: e.target.value }));
     transition: Bounce,
   });
   setSendOtp(true)
+  route.push("/")
 }
 else{
   toast.error(info.data.message, {
@@ -97,6 +99,7 @@ const handelotpverify=async()=>{
     transition: Bounce,
   });
   setSendOtp(false)
+  
 }
 else{
   toast.error(info.data.message, {

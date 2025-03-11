@@ -305,10 +305,10 @@ const page = () => {
             <h4 className="text-lg font-semibold text-green-700">
               Headquarters
             </h4>
-            <p className="text-gray-700">[Company Address]</p>
-            <p className="text-gray-700">City, Country</p>
-            <p className="text-gray-700">Phone: [phone number]</p>
-            <p className="text-gray-700">Email: [e-mail address]</p>
+            <p className="text-gray-700">[SCO No. 371,72,73 Sector 34A, Chandigarh 160022]</p>
+            {/* <p className="text-gray-700">City, Country</p> */}
+            <p className="text-gray-700">Phone: [+(91) 9877579319]</p>
+            <p className="text-gray-700">Email: [nextgentrip1@gmail.com]</p>
           </div>
 
           <div className="social-media text-center space-y-4 mt-10">

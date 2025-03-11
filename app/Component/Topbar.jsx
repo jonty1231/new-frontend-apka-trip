@@ -306,9 +306,7 @@ const Topbar = () => {
             className="flex   lg:hidden flex-col  justify-center cursor-pointer"
             onClick={openNav3}
           >
-            {/* <div className="w-6 h-[3px] bg-gray-800 mb-1"></div>
-            <div className="w-5 h-[2px] bg-gray-800 mb-1"></div>
-            <div className="w-4 h-[2px] bg-gray-800"></div> */}
+            
           </div>
           <Link href="/">
             <img src="/images/NextGenTrip.jpg" alt="" className="h-[37px] md:h-[75px]" />
