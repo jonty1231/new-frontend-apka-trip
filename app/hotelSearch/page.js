@@ -6,7 +6,7 @@ import Image from "next/image";
 import { FaShareAlt, FaStar, FaFilter, FaTimes } from "react-icons/fa";
 import Link from "next/link";
 import HotelFilter from "../Component/Filter/HotelFilter";
-import HotelComp from "../Component/AllComponent/formMaincomp/HotelsComp";
+import HotelComp from "../Component/AllComponent/formMaincomp/HotelComp";
 
 const page = () => {
   const [isPopupOpen, setIsPopupOpen] = useState(false);

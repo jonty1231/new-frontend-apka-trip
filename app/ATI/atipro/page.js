@@ -153,10 +153,10 @@ World where great service and ultimate indulgence blend with rare experience- th
   </p>
 
   <h3 className="text-2xl font-semibold text-gray-800">Headquarters</h3>
-  <p className="text-lg text-gray-700">[Company Address]</p>
-  <p className="text-lg text-gray-700">City, Country</p>
-  <p className="text-lg text-gray-700">[Phone Number]</p>
-  <p className="text-lg text-gray-700">[Email Address]</p>
+  <p className="text-lg text-gray-700">[SCO No. 371,72,73 Sector 34A, Chandigarh 160022]</p>
+  {/* <p className="text-lg text-gray-700">City, Country</p> */}
+  <p className="text-lg text-gray-700">[+(91) 9877579319]</p>
+  <p className="text-lg text-gray-700">[nextgentrip1@gmail.com]</p>
 
   <div className="space-y-4">
     <h4 className="text-xl font-semibold text-gray-800">Follow us on our Luxury Journeys</h4>

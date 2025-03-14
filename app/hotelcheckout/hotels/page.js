@@ -10,7 +10,7 @@ import HotelChains from "../../Component/AllComponent/HotelChain";
 import Hotelmobileheader from "../../Component/AllComponent/Hotelmobilheader";
 import { imgurl } from "../../Component/common";
 import { getAllRegHotels } from "../../Component/Store/slices/getReqHotels";
-import HotelsComp from "../../Component/AllComponent/formMaincomp/HotelsComp";
+import HotelsComp from "../../Component/AllComponent/formMaincomp/HotelComp";
 
 const Page = () => {
   const [showAll, setShowAll] = useState(false);

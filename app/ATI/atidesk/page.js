@@ -154,8 +154,8 @@ const Page = () => {
   ];
 
   const contactInfo = {
-    phone: "+1 (800) 123-4567",
-    email: "corporate@NextGen.com",
+    phone: " +(91) 9877579319",
+    email: "nextgentrip1@gmail.com",
     liveChat: "Available 24/7",
     socialLinks: {
       linkedin: "#",

@@ -54,7 +54,7 @@ export default function Page() {
                     className="text-blue-500 text-xl"
                   />
                   <p className="text-lg font-semibold text-gray-700">
-                    Sector 48, Chandigarh, India
+                    SCO No. 371,72,73 Sector 34A, Chandigarh 160022
                   </p>
                 </div>
               </div>
@@ -66,7 +66,7 @@ export default function Page() {
                     className="text-blue-500 text-xl"
                   />
                   <p className="text-lg font-semibold text-gray-700">
-                    tr@NextGen.com
+                    nextgentrip1@gmail.com
                   </p>
                 </div>
                 <div className="flex items-center space-x-3">
@@ -75,7 +75,7 @@ export default function Page() {
                     className="text-blue-500 text-xl"
                   />
                   <p className="text-lg font-semibold text-gray-700">
-                    NextGenindia@gmail.com
+                  nextgentrip1@gmail.com
                   </p>
                 </div>
                 <div className="flex items-center space-x-3">
@@ -84,8 +84,7 @@ export default function Page() {
                     className="text-blue-500 text-xl"
                   />
                   <p className="text-lg font-semibold text-gray-700">
-                    info@NextGen.com
-                  </p>
+                  nextgentrip1@gmail.com                  </p>
                 </div>
               </div>
               {/* Address */}
