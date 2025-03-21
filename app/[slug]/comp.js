@@ -323,12 +323,12 @@ const comp = ({ slug }) => {
     <>
       {activePopup === "view-price" && srrFairdata && !ssrFair.isLoading && (
         <div className="fixed p-4 inset-0 flex  z-[9999] items-center justify-center bg-black bg-opacity-50  overflow-y-auto">
-          <div className="p-6  bg-gray-100  h-auto md:max-h-screen relative">
+          <div className="p-6  bg-gray-100   h-full md:max-h-screen mt-30 overflow-y-auto relative">
             <MdCancel
               className="absolute top-2 right-2 text-2xl cursor-pointer"
               onClick={() => setActivePopup(null)}
             />
-
+       
             <div className="grid gap-4 lg:grid-cols-2">
               {srrFairdata.Results.Segments[0].map((flight, index) => (
                 <div
@@ -475,7 +475,7 @@ const comp = ({ slug }) => {
                       className="px-4 py-2 text-center  bg-blue-500 text-white  text-[13px] text-nowrap md:text-sm font-medium rounded hover:bg-blue-600"
                     >
                       Book Now
-                    </div>
+                    </div>   
                   </div>
                 </div>
               ))}

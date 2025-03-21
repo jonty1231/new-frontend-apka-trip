@@ -37,9 +37,32 @@ export default async function RootLayout({ children }) {
       <head>
 
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
-
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-7F46NND7PG"></script>
      
+
+
+
+
+
+
+      <script>
+        (function(h,o,t,j,a,r){
+            h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+            h._hjSettings={hjid:5345864,hjsv:6};
+            a=o.getElementsByTagName('head')[0];
+            r=o.createElement('script');r.async=1;
+            r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+            a.appendChild(r);
+        })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+    </script>
+
+
+
+
       </head>
+
+
+
       <body className={inter.className}>
      
      {development !="production"&& <NextIntlClientProvider messages={messages}>

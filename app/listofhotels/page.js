@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 import { LiaHotelSolid } from "react-icons/lia";
 
@@ -43,7 +44,7 @@ export default function Hotels() {
     {
       id: 5,
       title: "Villas",
-      img: "/images/Hotel5..webp",
+      img: "/images/hotel5.webp",
       description:
         "Our villas offer the ultimate in luxury and privacy. Enjoy spacious living areas, private pools, and exclusive services in beautiful settings, whether on the coast or nestled in the countryside.",
       additional:
@@ -60,7 +61,7 @@ export default function Hotels() {
     },
     {
       id: 7,
-      img: "/images/Hotel6..webp",
+      img: "/images/hotel6.webp",
       title: "Homestays",
       description:
         "Immerse yourself in local culture with our homestay options. Staying in a homestay provides a unique opportunity to experience life as a local, with personal touches and authentic interactions.",
@@ -70,7 +71,7 @@ export default function Hotels() {
     {
       id: 8,
       title: "Apartments",
-      img: "/images/Hotel8..webp",
+      img: "/images/hotel8.webp",
       description:
         "Our apartments offer the comfort and convenience of home with added services for a pleasant stay. Choose from short-term rentals to extended stays, and enjoy fully equipped kitchens, living areas, and often additional facilities like gyms or pools.",
       additional:
@@ -141,10 +142,10 @@ export default function Hotels() {
             reach today.
           </p>
           <div className="flex justify-center">
-            <button className="primary-col text-white px-6 py-3 rounded-full font-bold flex items-center gap-2 md:px-8 md:py-4">
+            <Link href={"/property-listing"}className="primary-col text-white px-6 py-3 rounded-full font-bold flex items-center gap-2 md:px-8 md:py-4">
               List Your Property Today{" "}
               <LiaHotelSolid className="text-lg md:text-xl" />
-            </button>
+            </Link>
           </div>
         </div>
       </div>
@@ -157,7 +158,7 @@ export default function Hotels() {
             <div className="p-4 sm:p-6 lg:p-8">
               <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
                 {propertyTypes.map((elm) => (
-                  <div
+                  <Link href={"/property-listing"}
                     key={elm.id}
                     className=" bg-gray-100  rounded-lg shadow-md hover:shadow-lg hover:-translate-y-1 transition-shadow duration-200 border border-gray-200"
                   >
@@ -178,7 +179,7 @@ export default function Hotels() {
                         {elm.description.slice(0, 200)}
                       </p>
                     </div>
-                  </div>
+                  </Link>
                 ))}
               </div>
             </div>
